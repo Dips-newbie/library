@@ -1,0 +1,62 @@
+body{
+    background-color: #d5e1df;
+}
+
+#heading{
+    font-family:cursive;
+    font-size: xxx-large;
+    background-color: #e3eaa7;
+    color: black;
+    border-radius: 8px;
+    height: 75px;
+    text-align: center;
+    border-bottom: 3px solid saddlebrown;
+    margin: 30px;
+    padding-top: 10px;
+}
+
+#inputContainer{
+    border: 1px solid saddlebrown;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 35px 0 35px 0;
+    border-radius: 40px;
+}
+
+#cancel_submit > button {
+    color: chartreuse;
+    background-color: saddlebrown;
+    border-radius: 8px;
+    height: 35px;
+    width: 60px;
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+#headerContainer,#displayContainers{
+    display:inline-block;
+    padding:0 0 0 90px;
+    width: 800px;
+}
+
+#displayContainers > div > div > button{
+    color: chartreuse;
+    background-color: saddlebrown;
+    border-radius: 8px;
+    height: 35px;
+    width: 60px;
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+.items{    
+    display: inline-block;
+    width: 160px;
+    height: 40px;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    font-family: fantasy;
+    font-weight: bolder;
+    border: 1px groove lightgrey;
+}
